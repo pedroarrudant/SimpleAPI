@@ -13,7 +13,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using SimpleAPI.Services;
 using Swashbuckle.AspNetCore.Swagger;
-using Swashbuckle.Swagger;
 
 namespace SimpleAPI
 {
@@ -45,7 +44,7 @@ namespace SimpleAPI
                         Contact = new OpenApiContact
                         {
                             Name = "Pedro Arruda",
-                            Url = new Uri("http://teste")
+                            Url = new Uri("https://github.com/pedroarrudant")
                         }
                     });
 
